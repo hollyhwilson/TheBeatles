@@ -1,0 +1,92 @@
+/* ==============================
+   CSS Design Tokens
+   Theme: Mindful Living Starter Kit (Light)
+   Aesthetic: Earth tones, elegance, clarity
+============================== */
+
+:root {
+    /* ========== Colour Palette ========== */
+    /* Primary Earth-Inspired Colours */
+    --color-primary: #6b705c;    /* Stone (primary UI colour) */
+    --color-secondary: #a5a58d;  /* Sand (backgrounds, inputs) */
+    --color-tertiary: #b7b7a4;   /* Clay (surface neutral) */
+
+    /* Accent & Feedback Colours */
+    --color-accent: #588157;     /* Moss Green (buttons, links) */
+    --color-highlight: #f4a261;  /* Warm Orange (attention, highlights) */
+    --color-success: #81b29a;    /* Soft Jade */
+    --color-warning: #f2cc8f;    /* Honey Beige */
+    --color-error: #e76f51;      /* Terracotta Red */
+
+    /* Neutral Greys for Text and UI */
+    --text-primary: #1e1e1e;      /* Main text */
+    --text-secondary: #444444;   /* UI, subtitles */
+    --text-tertiary: #777777;    /* Placeholder or muted text */
+    --text-contrast: #ffffff;    /* Light text on dark backgrounds */
+
+    /* Backgrounds & Surfaces */
+    --color-background: #fefae0; /* Light parchment background */
+    --color-surface: #f5f5f0;    /* Panels, cards */
+    --color-border: #dcdccf;     /* Subtle earthy border */
+    --color-overlay: rgba(0, 0, 0, 0.25);
+    --color-code-bg: #f0efeb;
+
+    /* Interactive States */
+    --color-border-hover: var(--color-accent);
+    --color-border-focus: var(--color-highlight);
+
+    /* Disabled State Styling */
+    --button-disabled-bg: #ddd;
+    --button-disabled-text: #888;
+    --button-disabled-border: #ccc;
+
+    /* Gradient (for headers, accents, or transitions) */
+    --gradient-brand: linear-gradient(
+        90deg,
+        var(--color-primary),
+        var(--color-accent),
+        var(--color-success),
+        var(--color-highlight)
+    );
+
+    /* Shadows – natural and soft */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.12);
+    --shadow-hover: 0 0 4px rgba(88, 129, 87, 0.25);
+    --shadow-focus: 0 0 0 3px rgba(244, 162, 97, 0.35);
+
+    /* Borders */
+    --border-default: 1px solid var(--color-border);
+    --border-accent: 2px solid var(--color-accent);
+    --border-active: 2px solid var(--color-primary);
+
+    /* ========== Typography ========== */
+    --font-heading: 'Playfair Display', 'Crimson Pro', serif;
+    --font-body: 'Noto Sans', 'Inter', sans-serif;
+    --font-quote: 'Merriweather', Georgia, serif;
+    --font-code: 'JetBrains Mono', 'Fira Code', monospace;
+
+    /* Font Sizes */
+    --font-xs: 0.75rem;
+    --font-sm: 0.875rem;
+    --font-base: 1rem;
+    --font-lg: 1.25rem;
+    --font-xl: 1.5rem;
+    --font-xxl: 2rem;
+
+    /* ========== Radius, Spacing & Motion ========== */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+    --space-xl: 4rem;
+
+    --transition-fast: 0.2s ease;
+    --transition-slow: 0.4s ease;
+    --transition-bounce: 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
