@@ -5,7 +5,9 @@ name: Deploy to GitHub Pages
 # Trigger the workflow on pushes to the main branch
 on:
   push:
-    branches: 'main'
+    branches: 
+     - 'main'
+     - 'master'
 
 # Grant minimal permissions needed by the workflow
 permissions:
