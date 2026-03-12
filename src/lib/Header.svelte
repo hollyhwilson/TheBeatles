@@ -44,7 +44,7 @@
         margin: 0;
         font-size: var(--font-xxl);
         font-weight: 700;
-        background: var(--gradient-brand);
+        background: var(--color-heading-title);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

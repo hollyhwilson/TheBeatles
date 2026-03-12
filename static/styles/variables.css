@@ -12,24 +12,24 @@
     --color-tertiary: #b7b7a4;   /* Clay (surface neutral) */
 
     /* Accent & Feedback Colours */
-    --color-accent: #588157;     /* Moss Green (buttons, links) */
-    --color-highlight: #f4a261;  /* Warm Orange (attention, highlights) */
+    --color-accent:  #a9868c; /* #588157;      Moss Green (buttons, links) */
+    --color-highlight: #4e3643; /*#f4a261;   Warm Orange (attention, highlights) */
     --color-success: #81b29a;    /* Soft Jade */
     --color-warning: #f2cc8f;    /* Honey Beige */
     --color-error: #e76f51;      /* Terracotta Red */
 
-    /* Neutral Greys for Text and UI */
-    --text-primary: #1e1e1e;      /* Main text */
+    /* Text colours */
+    --text-primary: #3c394e;  /* #1e1e1e;       Main text */
     --text-secondary: #444444;   /* UI, subtitles */
     --text-tertiary: #777777;    /* Placeholder or muted text */
     --text-contrast: #ffffff;    /* Light text on dark backgrounds */
 
     /* Backgrounds & Surfaces */
-    --color-background: #fefae0; /* Light parchment background */
-    --color-surface: #f5f5f0;    /* Panels, cards */
+    --color-background: #eadfdb;  /*#fefae0;  Light parchment background */
+    --color-surface: #b5a4b4; /*#f5f5f0;     Panels, cards */
     --color-border: #dcdccf;     /* Subtle earthy border */
     --color-overlay: rgba(0, 0, 0, 0.25);
-    --color-code-bg: #f0efeb;
+    --color-code-bg: #eadfdb; /* #f0efeb; */
 
     /* Interactive States */
     --color-border-hover: var(--color-accent);
@@ -48,6 +48,9 @@
         var(--color-success),
         var(--color-highlight)
     );
+
+    /* Header font colour */
+    --color-heading-title: #4e3643;
 
     /* Shadows – natural and soft */
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
