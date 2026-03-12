@@ -24,7 +24,7 @@
 
 
 <svelte:head>
-    <title>Starter Kit</title>
+    <title>Relevant</title>
 </svelte:head>
 
 

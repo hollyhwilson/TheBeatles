@@ -1,13 +1,13 @@
 <script>
     import { asset } from '$app/paths';
     import Navigation from './Navigation.svelte';
-</script>
+</script>  
 
 
 <header class="header">
     <div class="logo-area">
         <img src={asset("/logo.png")} alt="Starter Kit Logo" />
-        <h1>Starter Kit</h1>
+        <h1>Relevant</h1>
     </div>
     <Navigation />
 </header>
