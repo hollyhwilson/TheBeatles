@@ -65,8 +65,8 @@
     --border-active: 2px solid var(--color-primary);
 
     /* ========== Typography ========== */
-    --font-heading: 'Playfair Display', 'Crimson Pro', serif;
-    --font-body: 'Noto Sans', 'Inter', sans-serif;
+    --font-heading:  'Special Gothic Expanded One', sans-serif; /*'Playfair Display', 'Crimson Pro', serif;*/
+    --font-body: "Roboto Mono", monospace; /*'Noto Sans', 'Inter', sans-serif;*/
     --font-quote: 'Merriweather', Georgia, serif;
     --font-code: 'JetBrains Mono', 'Fira Code', monospace;
 
