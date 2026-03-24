@@ -43,7 +43,7 @@
 
     <!-- Featured Catalogue Section -->
     <section class="featured">
-        <h2>Featured Practices</h2>
+        <h2>Top Articles</h2>
         <div class="card-grid">
             {#each featuredItems as item, index}
                 <button
@@ -68,12 +68,7 @@
 
     <!-- About Teaser Section -->
     <section class="about-teaser">
-        <h2>Why This Matters</h2>
-        <p>
-            This project blends timeless wisdom with modern habits — from Stoic journaling to Shinobi adaptability.
-            Whether you seek health, discipline, or mindfulness, our tools are here to guide you.
-        </p>
-        <a href="{resolve('/about')}" class="learn-more">Learn more →</a>
+       
     </section>
 
     <!-- Quote Modal -->
@@ -193,7 +188,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: overlay;
-        background-color: rgba(255, 255, 255, 0.75);
+        background-color: #3c394e;
     }
 
     .about-teaser h2 {

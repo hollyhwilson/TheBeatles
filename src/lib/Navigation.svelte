@@ -45,7 +45,7 @@
 <style>
     .nav {
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
         align-items: center;
         width: 100%;
         gap: var(--space-lg);

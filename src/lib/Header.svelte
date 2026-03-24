@@ -6,16 +6,28 @@
 
 <header class="header">
     <div class="logo-area">
-        <img src={asset("/logo.png")} alt="Starter Kit Logo" />
-        <h1>RELEVANT</h1>
+        <div class="social-area">
+            <div class="social-container">
+
+            </div>
+            <div class="profile-container">
+
+            </div>
+        </div>
+       
+        <div class="title-search-container">
+            <h1>RELEVANT</h1>
+            <span>search</span>
+        </div>
     </div>
+    
     <Navigation />
 </header>
 
 
 <style>
     .header {
-        display: flex;
+        display: block;
         justify-content: space-between;
         align-items: center;
         padding: 0 var(--space-lg);
@@ -27,7 +39,7 @@
     }
 
     .logo-area {
-        display: flex;
+        display: block;
         align-items: center;
         gap: var(--space-sm);
         font-family: var(--font-heading);
@@ -41,14 +53,15 @@
     }
 
     .logo-area h1 {
-        margin: 0;
-        font-size: var(--font-xxl);
+        margin: 20px;
+        text-align: center;
+        font-size: var(--font-logo);
         font-weight: 700;
         background: var(--color-heading-title);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        line-height: 1;
+        line-height:2;
         animation: fadeInTitle 0.6s ease forwards;
     }
 

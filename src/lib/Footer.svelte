@@ -1,5 +1,5 @@
 <footer class="footer">
-    <p>&copy; 2025 Starter Kit. Inspired by mindful design and resilient development.</p>
+    <p>&copy; 2026 Relevant</p>
 </footer>
 
 
