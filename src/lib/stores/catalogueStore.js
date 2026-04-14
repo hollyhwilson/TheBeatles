@@ -87,73 +87,73 @@ const initialCatalogue = [
     },
     {
         id: "9",
-        title: "Power Posture Drills",
-        description: "Learn ancient standing postures for strength, composure, and body awareness.",
-        category: "strength",
-        tags: ["posture", "calisthenics", "movement"],
+        title: "Fish dish stuns critics",
+        description: "Nely opened seafood restaurant in Dublin wins an award thanks to delightful fish dish",
+        category: "local",
+        tags: ["fish", "food"],
         featured: false,
         image: "/images/catalogue/item-9.png",
-        alt: "name"
+        alt: "Cooked fish fillets on top of curry sauce"
     },
     {
         id: "10",
-        title: "Visualisation Ritual",
-        description: "A brief morning visualisation exercise inspired by shinobi anticipation training.",
-        category: "focus",
-        tags: ["visualisation", "mental rehearsal", "intention"],
+        title: "Video games as a way to help children develop",
+        description: "A different onlook on games as more of a learning tool rather than something harmful.",
+        category: "entertainment",
+        tags: ["internet", "childcare",],
         featured: false,
         image: "/images/catalogue/item-10.png",
-        alt: "name"
+        alt: "Two kids on a couch holding console controllers"
     },
     {
         id: "11",
-        title: "Cold Exposure Start",
-        description: "A simple cold water splash or shower to build courage and resilience.",
-        category: "discipline",
-        tags: ["resilience", "health", "willpower"],
+        title: "Oldest gorilla in captivity celebrates 69th birthday",
+        description: "The oldest captive gorilla from Berlin ZOO turns 69 years old.",
+        category: "entertainment",
+        tags: ["animals", "gorilla"],
         featured: false,
         image: "/images/catalogue/item-11.png",
-        alt: "name"
+        alt: "Gorilla next to a basket of vegetables with the number 69 on it"
     },
     {
         id: "12",
-        title: "The 5-Minute Mind Sweep",
-        description: "Declutter your brain with a quick brain dump — inspired by shinobi note-scatter scrolls.",
-        category: "focus",
-        tags: ["productivity", "mental clarity", "journaling"],
+        title: "Fish holds world record for driving",
+        description: "Oh yeah, this fish can drive, baby.",
+        category: "entertainment",
+        tags: ["fish", "world record"],
         featured: false,
         image: "/images/catalogue/item-12.png",
-        alt: "name"
+        alt: "Goldfish in a fish tank on wheels"
     },
     {
         id: "13",
-        title: "Honor Code Exercise",
-        description: "Draft your personal code of honour. Based on the Bushidō virtues.",
-        category: "values",
-        tags: ["bushido", "identity", "reflection"],
+        title: "Robot arrested for public disturbance",
+        description: "A humanoid robot arrested after harrasing an eldery woman.",
+        category: "politics",
+        tags: ["robot", "police"],
         featured: false,
         image: "/images/catalogue/item-13.png",
-        alt: "name"
+        alt: "Humanoid robot being taken away by police officers"
     },
     {
         id: "14",
-        title: "Gratitude Bow Practice",
-        description: "A brief ritual of bowing with thanks before meals or rest. Builds humility and reverence.",
-        category: "ritual",
-        tags: ["gratitude", "humility", "presence"],
+        title: "New York UFO sighting",
+        description: "A UFO (Unidentified Flying Object) spotted flying over New York City leaves conspiracists stunned.",
+        category: "entertainment",
+        tags: ["UFO", "conspiracy"],
         featured: false,
         image: "/images/catalogue/item-14.png",
-        alt: "name"
+        alt: "Dark sky with red cirles pointing out lights in a triangular formation"
     },
     {
         id: "15",
-        title: "Tea Ceremony Lite",
-        description: "A simplified tea ritual for calm presence. Inspired by Zen practice.",
-        category: "presence",
-        tags: ["ritual", "zen", "stillness"],
+        title: "Titanic exhibition reopens its doors",
+        description: "Beloved exhibition about the infamous sunken cruise reopens after massive success.",
+        category: "entertainment",
+        tags: ["museum", "learning"],
         featured: false,
         image: "/images/catalogue/item-15.png",
-        alt: "name"
+        alt: "Closeup photograph of Titanic model"
     }
 ];
 
