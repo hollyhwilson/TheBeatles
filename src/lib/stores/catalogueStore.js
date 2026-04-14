@@ -7,75 +7,83 @@ import { writable, derived } from 'svelte/store';
 const initialCatalogue = [
     {
         id: "1",
-        title: "Morning Stretch Ritual",
-        description: "A gentle full-body stretch routine rooted in yoga and shinobi practices to awaken body and mind.",
-        category: "movement",
-        tags: ["mindfulness", "morning", "mobility"],
+        title: "Dublin fuel prices strikes",
+        description: "Protesters have flooded the streets of Dublin as fuel prices skyrocket.",
+        category: "politics",
+        tags: ["politics", "local"],
         featured: false,
-        image: "/images/catalogue/item-1.png"
+        image: "/images/catalogue/item-1.png",
+        alt: "Truck and tractor on the street during oil strikes"
     },
     {
         id: "2",
-        title: "Digital Declutter",
-        description: "A mindful practice of clearing digital clutter from your phone, desktop, and online space.",
-        category: "focus",
-        tags: ["focus", "discipline", "organisation"],
+        title: "What's made Obama sad?",
+        description: "Journalists scramble as they try to ucover the secret of what has upset Obama.",
+        category: "entertainment",
+        tags: ["sad", "politics"],
         featured: false,
-        image: "/images/catalogue/item-2.png"
+        image: "/images/catalogue/item-2.png",
+        alt: "Former US president Barrack Obama crying"
     },
     {
         id: "3",
-        title: "Evening Journaling",
-        description: "A structured journaling method inspired by Marcus Aurelius and the Bushidō value of reflection.",
-        category: "reflection",
-        tags: ["stoicism", "gratitude", "habit"],
+        title: "Playing the harp is back in fashion, states harp enthusiast",
+        description: "A professional harp-lover recounts falling in love with an instrument",
+        category: "entertainment",
+        tags: ["music", "love"],
         featured: true,
-        image: "/images/catalogue/item-3.png"
+        image: "/images/catalogue/item-3.png",
+        alt: "Woman playing the harp"
     },
     {
         id: "4",
-        title: "Breath Awareness",
-        description: "Learn the art of breath control (kokyū) to centre attention and regulate stress.",
-        category: "calm",
-        tags: ["zen", "calm", "resilience"],
+        title: "Taxes create depression",
+        description: "Taxes are NOT fun, multiple witnesses state.",
+        category: "local",
+        tags: ["sad", "money"],
         featured: true,
-        image: "/images/catalogue/item-4.png"
+        image: "/images/catalogue/item-4.png",
+        alt: "Woman doing her taxes with a laptop and documents"
     },
     {
         id: "5",
         title: "Nature Walks",
-        description: "Engage all five senses during a silent walk in nature. Based on Shinrin-yoku (forest bathing).",
+        description: "A calming walk in the woods results in instantaneous self-combustion.",
         category: "presence",
-        tags: ["mindfulness", "nature", "ritual"],
+        tags: ["nature", "radiation", "local warming"],
         featured: true,
-        image: "/images/catalogue/item-5.png"
+        image: "/images/catalogue/item-5.png",
+        alt: "Building on fire"
     },
     {
         id: "6",
-        title: "Weekly Reflection",
-        description: "A 7-question self-check aligned with the Bushidō virtues to build purpose and resolve.",
-        category: "discipline",
-        tags: ["bushido", "self-awareness", "growth"],
+        title: "Gorillaz's Dublin concert a massive success",
+        description: "People came to watch a coupel of lads jam it out with some instruments.",
+        category: "entertainment",
+        tags: ["gorilla", "concert", "local"],
         featured: false,
-        image: "/images/catalogue/item-6.png"
+        image: "/images/catalogue/item-6.png",
+        alt: "A photograph from the Gorillaz concert in Dublin"
     },
     {
         id: "7",
-        title: "Obstacle Reframing",
-        description: "A Stoic-based method for interpreting setbacks as learning opportunities.",
-        category: "resilience",
-        tags: ["stoicism", "grit", "mental clarity"],
+        title: "Howling at the moon boosts serotonin",
+        description: "Howl with the wolves like Maroon 5.",
+        category: "entertainment",
+        tags: ["mindfulness", "love", "mental clarity"],
         featured: false,
-        image: "/images/catalogue/item-7.png"
+        image: "/images/catalogue/item-7.png",
+        alt: "Wolf in a grassy field"
     },
     {
         id: "8",
-        title: "One-Meal Fasting Practice",
-        description: "Inspired by samurai simplicity — skip a meal and reflect on needs versus wants.",
-        category: "nutrition",
-        tags: ["fasting", "clarity", "minimalism"],
+        title: "Recycling so easy even a baby can do it",
+        description: "Separating recyclable materials like a boss.",
+        category: "local",
+        tags: ["nature", "local"],
         featured: false,
-        image: "/images/catalogue/item-8.png"
+        image: "/images/catalogue/item-8.png",
+        alt: "Mother and baby doing their recycling together"
     },
     {
         id: "9",
@@ -84,7 +92,8 @@ const initialCatalogue = [
         category: "strength",
         tags: ["posture", "calisthenics", "movement"],
         featured: false,
-        image: "/images/catalogue/item-9.png"
+        image: "/images/catalogue/item-9.png",
+        alt: "name"
     },
     {
         id: "10",
@@ -93,7 +102,8 @@ const initialCatalogue = [
         category: "focus",
         tags: ["visualisation", "mental rehearsal", "intention"],
         featured: false,
-        image: "/images/catalogue/item-10.png"
+        image: "/images/catalogue/item-10.png",
+        alt: "name"
     },
     {
         id: "11",
@@ -102,7 +112,8 @@ const initialCatalogue = [
         category: "discipline",
         tags: ["resilience", "health", "willpower"],
         featured: false,
-        image: "/images/catalogue/item-11.png"
+        image: "/images/catalogue/item-11.png",
+        alt: "name"
     },
     {
         id: "12",
@@ -111,7 +122,8 @@ const initialCatalogue = [
         category: "focus",
         tags: ["productivity", "mental clarity", "journaling"],
         featured: false,
-        image: "/images/catalogue/item-12.png"
+        image: "/images/catalogue/item-12.png",
+        alt: "name"
     },
     {
         id: "13",
@@ -120,7 +132,8 @@ const initialCatalogue = [
         category: "values",
         tags: ["bushido", "identity", "reflection"],
         featured: false,
-        image: "/images/catalogue/item-13.png"
+        image: "/images/catalogue/item-13.png",
+        alt: "name"
     },
     {
         id: "14",
@@ -129,7 +142,8 @@ const initialCatalogue = [
         category: "ritual",
         tags: ["gratitude", "humility", "presence"],
         featured: false,
-        image: "/images/catalogue/item-14.png"
+        image: "/images/catalogue/item-14.png",
+        alt: "name"
     },
     {
         id: "15",
@@ -138,7 +152,8 @@ const initialCatalogue = [
         category: "presence",
         tags: ["ritual", "zen", "stillness"],
         featured: false,
-        image: "/images/catalogue/item-15.png"
+        image: "/images/catalogue/item-15.png",
+        alt: "name"
     }
 ];
 

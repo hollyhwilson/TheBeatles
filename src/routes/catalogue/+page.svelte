@@ -100,6 +100,7 @@
                         category={item.category}
                         tags={item.tags}
                         animationDelay={index * 80}
+                        altText={item.alt}
                     />
                 </button>
             {/each}

@@ -8,6 +8,7 @@
     /** @type {string | any[]} */
     export let tags = [];
     export let animationDelay = 0;
+    export let altText = "image";
     let expanded = false;
     
     $: isLong = description.length > 120;
@@ -16,7 +17,7 @@
 
 <article class="card" aria-label={`Card: ${title}`} style="animation-delay: {animationDelay}ms;">
     <div class="image-wrapper">
-        <img src={asset(image)} alt={`Image for ${title}`} />
+        <img src={asset(image)} alt={altText} />
     </div>
 
     <div class="content">
