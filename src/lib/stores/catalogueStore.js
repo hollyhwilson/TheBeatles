@@ -17,7 +17,7 @@ const initialCatalogue = [
     },
     {
         id: "2",
-        title: "What's made Obama sad?",
+        title: "What's made Obama sad",
         description: "Journalists scramble as they try to ucover the secret of what has upset Obama.",
         category: "entertainment",
         tags: ["sad", "politics"],

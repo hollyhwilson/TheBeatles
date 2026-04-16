@@ -1,7 +1,7 @@
 export async function entries() {
 	return [
 		{ title: "Dublin fuel prices strikes" },
-		{ title: "What's made Obama sad?" },
+		{ title: "What's made Obama sad" },
 		{ title: "Playing the harp is back in fashion, states harp enthusiast" },
 		{ title: "Taxes create depression" },
 		{ title: "Nature Walks" },
