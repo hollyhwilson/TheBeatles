@@ -128,7 +128,7 @@ const initialCatalogue = [
     {
         id: "13",
         title: "Robot arrested for public disturbance",
-        description: "A humanoid robot arrested after harrasing an eldery woman.",
+        description: "A humanoid robot arrested after expressed agression towards an eldery woman.",
         category: "politics",
         tags: ["robot", "police"],
         featured: false,
