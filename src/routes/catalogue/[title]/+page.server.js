@@ -1,20 +1,20 @@
 export async function entries() {
 	return [
-		{ title: "Morning Stretch Ritual" },
-		{ title: "Digital Declutter" },
-		{ title: "Evening Journaling" },
-		{ title: "Breath Awareness" },
+		{ title: "Dublin fuel prices strikes" },
+		{ title: "What's made Obama sad?" },
+		{ title: "Playing the harp is back in fashion, states harp enthusiast" },
+		{ title: "Taxes create depression" },
 		{ title: "Nature Walks" },
-		{ title: "Weekly Reflection" },
-		{ title: "Obstacle Reframing" },
-		{ title: "One-Meal Fasting Practice" },
-		{ title: "Power Posture Drills" },
-		{ title: "Visualisation Ritual" },
-		{ title: "Cold Exposure Start" },
-		{ title: "The 5-Minute Mind Sweep" },
-		{ title: "Honor Code Exercise" },
-		{ title: "Gratitude Bow Practice" },
-		{ title: "Tea Ceremony Lite" }
+		{ title: "Gorillaz's Dublin concert a massive success" },
+		{ title: "Howling at the moon boosts serotonin" },
+		{ title: "Recycling so easy even a baby can do it" },
+		{ title: "Fish dish stuns critics" },
+		{ title: "Video games as a way to help children develop" },
+		{ title: "Oldest gorilla in captivity celebrates 69th birthday" },
+		{ title: "Fish holds world record for driving" },
+		{ title: "Robot arrested for public disturbance" },
+		{ title: "New York UFO sighting" },
+		{ title: "Titanic exhibition reopens its doors" }
 		// Add all valid catalogue IDs here
 	];
 }
