@@ -12,7 +12,7 @@
         font-size: var(--font-sm);
         color: var(--text-tertiary);
         background-color: var(--color-surface);
-        border-top: var(--border-default);
+       /* border-top: var(--border-default); */
         box-shadow: var(--shadow-sm);
         position: relative;
         z-index: 10;
@@ -42,7 +42,7 @@
 
     @media (max-width: 768px) {
         .footer {
-            padding: var(--space-sm);
+           /* padding: var(--space-sm); */
             font-size: var(--font-xs);
         }
     }

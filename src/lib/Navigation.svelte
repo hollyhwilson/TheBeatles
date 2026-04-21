@@ -88,7 +88,7 @@
         bottom: 0;
         height: 2px;
         width: 100%;
-        background: var(--color-secondary);
+        background: var(--color-background);
         transform: scaleX(0);
         transform-origin: left;
         transition: transform var(--transition-fast);

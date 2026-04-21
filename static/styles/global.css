@@ -25,7 +25,7 @@ section {
     padding: var(--space-md) 0 var(--space-xl);
     margin-bottom: var(--space-lg);
     animation: fadeIn 0.4s ease-in;
-    background-color: var(--color-surface);
+    background-color: var(--color-background);
 }
 
 section:not(:last-child) {
@@ -53,14 +53,14 @@ p {
 }
 
 a {
-    color: var(--color-secondary);
+    color: var(--color-highlight);
     text-decoration: none;
     transition: color var(--transition-fast);
 }
 
 a:hover,
 a:focus {
-    color: var(--color-primary);
+    color: var(--color-highlight);
     outline: none;
 }
 

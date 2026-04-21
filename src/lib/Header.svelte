@@ -17,7 +17,6 @@
        
         <div class="title-search-container">
             <h1>RELEVANT</h1>
-            <span>search</span>
         </div>
     </div>
     
@@ -30,10 +29,10 @@
         display: block;
         justify-content: space-between;
         align-items: center;
-        padding: 0 var(--space-lg);
+       /* padding: 0 var(--space-lg);*/
         background-color: var(--color-surface);
         box-shadow: var(--shadow-md);
-        border-bottom: var(--border-default);
+       /* border-bottom: var(--border-default); */
         position: relative;
         z-index: 100;
     }
@@ -54,6 +53,7 @@
 
     .logo-area h1 {
         margin: 20px;
+        margin-top: 0px;
         text-align: center;
         font-size: var(--font-logo);
         font-weight: 700;

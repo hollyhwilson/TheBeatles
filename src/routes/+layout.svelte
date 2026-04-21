@@ -22,9 +22,9 @@
 
 <style>
     #layout-container {
-        display: flex;
+       /* display: flex;
         flex-direction: column;
-        min-height: 100vh;
+       /* min-height: 100vh; */
         background-color: var(--color-background);
         color: var(--text-primary);
         font-family: var(--font-body);
@@ -48,10 +48,11 @@
         bottom: 0;
         min-height: 100%;
         width: 100%;
-        background-image: url("/images/backgrounds/zen-enso-bg.png");
+        background-color: var(--color-background);;
+       /* background-image: url("/images/backgrounds/zen-enso-bg.png");
         background-repeat: repeat-y; /* or 'no-repeat' for full image */
-        background-size: cover;      /* or 'contain' if you want it less aggressive */
-        background-position: center top;
+      /*  background-size: cover;      /* or 'contain' if you want it less aggressive */
+      /*  background-position: center top; */
         opacity: 0.66;
         z-index: -1;
     }

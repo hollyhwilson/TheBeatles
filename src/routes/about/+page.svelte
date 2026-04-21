@@ -135,7 +135,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: overlay;
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: var(--color-background);
     }
 
     /* Section: Shinobi Principles */
@@ -170,7 +170,7 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		background-blend-mode: overlay;
-		background-color: rgba(255, 255, 255, 0.85);
+		background-color: var(--color-background);
 		padding: var(--space-xl) var(--space-md);
 		text-align: center;
 	}
@@ -179,7 +179,7 @@
 		max-width: 800px;
 		margin: 0 auto;
 		padding: var(--space-lg);
-		background: rgba(255, 255, 255, 0.75);
+		background:var(--color-background);
 		border-radius: var(--radius-md);
 		box-shadow: var(--shadow-md);
 		backdrop-filter: blur(3px);

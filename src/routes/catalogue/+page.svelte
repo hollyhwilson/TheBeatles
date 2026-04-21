@@ -54,7 +54,7 @@
 			<input
 				type="text"
 				bind:value={search}
-				placeholder="Search catalogue..."
+				placeholder="Search..."
 				aria-label="Search catalogue"
 			/>
 		</label>

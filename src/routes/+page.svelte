@@ -31,7 +31,7 @@
 <!-- Page Container -->
 <div class="home-container">
     <!-- Hero Section -->
-    <section class="hero">
+   <!-- <section class="hero">
         <h1>Live Mindfully. Learn Purposefully.</h1>
         <p class="subheading">
             Inspired by the 7 Virtues of Bushidō and the 11 Principles of the Shinobi.
@@ -39,7 +39,7 @@
         <button class="inspire-button" on:click={openQuoteModal}>
             Find Inspiration
         </button>
-    </section>
+    </section>-->
 
     <!-- Featured Catalogue Section -->
     <section class="featured">
@@ -91,7 +91,7 @@
     .hero {
         text-align: center;
         padding: var(--space-xl) var(--space-md);
-        border-radius: var(--radius-md);
+        /*border-radius: var(--radius-md); */
         box-shadow: var(--shadow-sm);
         background-image: url('/images/backgrounds/zen-hero.png');
         background-size: cover;
@@ -128,16 +128,16 @@
 
     .inspire-button:hover,
     .inspire-button:focus {
-        background-color: var(--color-highlight);
+        background-color:var(--color-background);
     }
 
     /* Featured Section */
     .featured {
         padding: 0 var(--space-md);
-        background-image: url('/images/backgrounds/rice-texture.png');
+       /* background-image: url('/images/backgrounds/rice-texture.png');
         background-size: 200px;
-        background-repeat: repeat;
-        background-color: rgba(255, 255, 255, 0.85);
+        background-repeat: repeat; */
+        background-color: var(--color-background);
     }
 
     .featured h2 {
@@ -181,14 +181,14 @@
         text-align: center;
         padding: var(--space-lg) var(--space-md);
         background-color: var(--color-background);
-        border-top: var(--border-default);
-        background: linear-gradient(to top, var(--color-surface), transparent);
+       /* border-top: var(--border-default);
+       /* background: linear-gradient(to top, var(--color-surface), transparent);
         background-image: url('/images/backgrounds/scroll-teaser.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-blend-mode: overlay;
-        background-color: #3c394e;
+        background-blend-mode: overlay; */
+        background-color: var(--color-background);
     }
 
     .about-teaser h2 {
