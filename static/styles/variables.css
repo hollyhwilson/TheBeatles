@@ -7,14 +7,14 @@
 :root {
     /* ========== Colour Palette ========== */
     /* Primary Earth-Inspired Colours */
-    --color-primary: #6b705c;    /* Stone (primary UI colour) */
-    --color-secondary: #a5a58d;  /* Sand (backgrounds, inputs) */
+    --color-primary: #4e3643;    /* Stone (primary UI colour) */
+    --color-secondary: #b5a4b5;  /* Sand (backgrounds, inputs) */
     --color-tertiary: #b7b7a4;   /* Clay (surface neutral) */
 
     /* Accent & Feedback Colours */
     --color-accent:  #a9868c; /* #588157;      Moss Green (buttons, links) */
     --color-highlight: #4e3643; /*#f4a261;   Warm Orange (attention, highlights) */
-    --color-success: #81b29a;    /* Soft Jade */
+    --color-success: #b5a4b5;    /* Soft Jade */
     --color-warning: #f2cc8f;    /* Honey Beige */
     --color-error: #e76f51;      /* Terracotta Red */
 

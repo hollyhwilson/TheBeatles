@@ -31,7 +31,7 @@
         align-items: center;
        /* padding: 0 var(--space-lg);*/
         background-color: var(--color-surface);
-        box-shadow: var(--shadow-md);
+        /*box-shadow: var(--shadow-md);*/
        /* border-bottom: var(--border-default); */
         position: relative;
         z-index: 100;

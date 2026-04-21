@@ -49,7 +49,7 @@ const initialCatalogue = [
         id: "5",
         title: "Nature Walks",
         description: "A calming walk in the woods results in instantaneous self-combustion.",
-        category: "presence",
+        category: "local",
         tags: ["nature", "radiation", "local warming"],
         featured: true,
         image: "/images/catalogue/item-5.png",

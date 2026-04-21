@@ -44,6 +44,7 @@
 
 <style>
     .nav {
+        background-color: var(--color-background);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -55,14 +56,18 @@
     .nav ul {
         display: flex;
         flex-wrap: wrap;
-        gap: var(--space-md);
+        gap: var(--space-xl);
         list-style: none;
-        margin: 0;
-        padding: 0;
+        margin: 0 auto;
+        padding: 10px;
     }
 
     .nav-item {
         animation: fadeUp 0.4s ease forwards;
+        background-color: var(--color-accent);
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .nav-item:nth-child(1) { animation-delay: 0.2s; }
@@ -72,8 +77,8 @@
 
     .nav a {
         position: relative;
-        font-family: var(--font-body);
-        font-size: var(--font-lg);
+        font-family: var(--font-heading);
+        font-size: var(--font-xl);
         font-weight: 600;
         color: var(--text-primary);
         padding: var(--space-xs) var(--space-sm);
@@ -90,7 +95,7 @@
         width: 100%;
         background: var(--color-background);
         transform: scaleX(0);
-        transform-origin: left;
+        transform-origin: center;
         transition: transform var(--transition-fast);
     }
 
@@ -128,8 +133,8 @@
 
     @media (max-width: 768px) {
         .nav {
-            flex-direction: column;
-            align-items: flex-start;
+            flex-direction: row;
+            align-items: justify;
         }
 
         .nav ul {
