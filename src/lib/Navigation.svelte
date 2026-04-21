@@ -87,7 +87,7 @@
     }
 
     .nav a::after {
-        content: '';
+        /*content: '';
         position: absolute;
         left: 0;
         bottom: 0;
@@ -96,7 +96,7 @@
         background: var(--color-background);
         transform: scaleX(0);
         transform-origin: center;
-        transition: transform var(--transition-fast);
+        transition: transform var(--transition-fast);*/
     }
 
     .nav a:hover::after,
@@ -115,7 +115,7 @@
 
     .nav a.active::after {
         transform: scaleX(1);
-        background: var(--gradient-brand);
+        /*background: var(--gradient-brand);*/
         background-size: 200%;
         animation: slideGradient 4s linear infinite;
     }
