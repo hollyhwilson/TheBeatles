@@ -13,7 +13,8 @@ const initialCatalogue = [
         tags: ["politics", "local"],
         featured: false,
         image: "/images/catalogue/item-1.png",
-        alt: "Truck and tractor on the street during oil strikes"
+        alt: "Truck and tractor on the street during oil strikes",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "2",
@@ -23,7 +24,8 @@ const initialCatalogue = [
         tags: ["sad", "politics"],
         featured: false,
         image: "/images/catalogue/item-2.png",
-        alt: "Former US president Barrack Obama crying"
+        alt: "Former US president Barrack Obama crying",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "3",
@@ -33,7 +35,8 @@ const initialCatalogue = [
         tags: ["music", "love"],
         featured: true,
         image: "/images/catalogue/item-3.png",
-        alt: "Woman playing the harp"
+        alt: "Woman playing the harp",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "4",
@@ -43,7 +46,8 @@ const initialCatalogue = [
         tags: ["sad", "money"],
         featured: true,
         image: "/images/catalogue/item-4.png",
-        alt: "Woman doing her taxes with a laptop and documents"
+        alt: "Woman doing her taxes with a laptop and documents",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "5",
@@ -53,7 +57,8 @@ const initialCatalogue = [
         tags: ["nature", "radiation", "local warming"],
         featured: true,
         image: "/images/catalogue/item-5.png",
-        alt: "Building on fire"
+        alt: "Building on fire",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "6",
@@ -63,7 +68,8 @@ const initialCatalogue = [
         tags: ["gorilla", "concert", "local"],
         featured: false,
         image: "/images/catalogue/item-6.png",
-        alt: "A photograph from the Gorillaz concert in Dublin"
+        alt: "A photograph from the Gorillaz concert in Dublin",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "7",
@@ -73,7 +79,8 @@ const initialCatalogue = [
         tags: ["mindfulness", "love", "mental clarity"],
         featured: false,
         image: "/images/catalogue/item-7.png",
-        alt: "Wolf in a grassy field"
+        alt: "Wolf in a grassy field",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "8",
@@ -83,7 +90,8 @@ const initialCatalogue = [
         tags: ["nature", "local"],
         featured: false,
         image: "/images/catalogue/item-8.png",
-        alt: "Mother and baby doing their recycling together"
+        alt: "Mother and baby doing their recycling together",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "9",
@@ -93,7 +101,8 @@ const initialCatalogue = [
         tags: ["fish", "food"],
         featured: false,
         image: "/images/catalogue/item-9.png",
-        alt: "Cooked fish fillets on top of curry sauce"
+        alt: "Cooked fish fillets on top of curry sauce",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "10",
@@ -103,7 +112,8 @@ const initialCatalogue = [
         tags: ["internet", "childcare",],
         featured: false,
         image: "/images/catalogue/item-10.png",
-        alt: "Two kids on a couch holding console controllers"
+        alt: "Two kids on a couch holding console controllers",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "11",
@@ -113,7 +123,8 @@ const initialCatalogue = [
         tags: ["animals", "gorilla"],
         featured: false,
         image: "/images/catalogue/item-11.png",
-        alt: "Gorilla next to a basket of vegetables with the number 69 on it"
+        alt: "Gorilla next to a basket of vegetables with the number 69 on it",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "12",
@@ -123,7 +134,8 @@ const initialCatalogue = [
         tags: ["fish", "world record"],
         featured: false,
         image: "/images/catalogue/item-12.png",
-        alt: "Goldfish in a fish tank on wheels"
+        alt: "Goldfish in a fish tank on wheels",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "13",
@@ -133,7 +145,8 @@ const initialCatalogue = [
         tags: ["robot", "police"],
         featured: false,
         image: "/images/catalogue/item-13.png",
-        alt: "Humanoid robot being taken away by police officers"
+        alt: "Humanoid robot being taken away by police officers",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "14",
@@ -143,7 +156,8 @@ const initialCatalogue = [
         tags: ["UFO", "conspiracy"],
         featured: false,
         image: "/images/catalogue/item-14.png",
-        alt: "Dark sky with red cirles pointing out lights in a triangular formation"
+        alt: "Dark sky with red cirles pointing out lights in a triangular formation",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     },
     {
         id: "15",
@@ -153,7 +167,8 @@ const initialCatalogue = [
         tags: ["museum", "learning"],
         featured: false,
         image: "/images/catalogue/item-15.png",
-        alt: "Closeup photograph of Titanic model"
+        alt: "Closeup photograph of Titanic model",
+        article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget imperdiet eros. Praesent at elit ex. Mauris id dignissim nulla, ac malesuada purus. Nulla facilisi. Nullam ex lorem, ornare sed augue quis, ornare posuere mi. Fusce ultrices volutpat nulla sed efficitur. Curabitur eget nulla rutrum lorem feugiat condimentum. Nunc cursus non velit vitae ornare. Nulla quam dui, porttitor et dui eget, sodales dignissim odio. Vestibulum nibh nulla, interdum in tortor bibendum, dapibus congue dolor. In tincidunt diam ut dolor porttitor tincidunt."
     }
 ];
 

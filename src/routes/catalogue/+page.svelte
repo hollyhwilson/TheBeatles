@@ -101,6 +101,7 @@
                         tags={item.tags}
                         animationDelay={index * 80}
                         altText={item.alt}
+                        article={item.article}
                     />
                 </button>
             {/each}

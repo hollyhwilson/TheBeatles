@@ -47,6 +47,7 @@
 		<h1>{item.title}</h1>
 		<p class="category">{item.category}</p>
 		<p class="description">{item.description}</p>
+		<p class="artice">{item.article}</p>
 
 		{#if item.tags.length}
 			<ul class="tags">
@@ -77,6 +78,7 @@
 							category={item.category}
 							tags={item.tags}
                         	animationDelay={index * 100}
+							article={item.article}
 						/>
 					</button>
 				{/each}

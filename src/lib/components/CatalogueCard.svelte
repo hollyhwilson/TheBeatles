@@ -9,9 +9,11 @@
     export let tags = [];
     export let animationDelay = 0;
     export let altText = "image";
+    export let article = 'Blank text';
     let expanded = false;
     
     $: isLong = description.length > 120;
+    $: isLong2 = article.length > 60;
 </script>
 
 
@@ -29,6 +31,15 @@
                 {description}
             {:else}
                 {description.substring(0, 120)}…
+            {/if}
+        </p>
+
+        
+        <p class="article">
+            {#if expanded || !isLong2}
+                {article}
+            {:else}
+                {article.substring(0, 60)}…
             {/if}
         </p>
 
