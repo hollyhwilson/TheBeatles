@@ -5,8 +5,8 @@
 
     const navigationItems = [
         { name: 'Home', path: '/' },
-        { name: 'Catalogue', path: '/catalogue' },
-        { name: 'About', path: '/about' }
+        { name: 'Catalogue', path: '/catalogue/' },
+        { name: 'About', path: '/about/' }
     ];
 
     let isOpen = false;
@@ -115,7 +115,7 @@
 
     .nav a.active::after {
         transform: scaleX(1);
-        /*background: var(--gradient-brand);*/
+        background: var(--gradient-brand);
         background-size: 200%;
         animation: slideGradient 4s linear infinite;
     }
