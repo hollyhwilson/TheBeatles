@@ -93,10 +93,10 @@
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
-		background-image: url('/images/backgrounds/kanji-grid.png');
+		/* background-image: url('/images/backgrounds/kanji-grid.png'); */
         background-size: 200px;
         background-repeat: repeat;
-        background-color: rgba(255, 255, 255, 0.85);
+        background-color: var(--color-background);
 	}
 	
 	.detail-content {
@@ -159,10 +159,10 @@
 	.related {
 		margin-top: var(--space-xl);
 		padding: var(--space-lg) var(--space-md);
-		background-image: url('/images/backgrounds/rice-texture.png');
+		/* background-image: url('/images/backgrounds/rice-texture.png');*/
         background-size: 800px;
         background-repeat: repeat;
-        background-color: rgba(255, 255, 255, 0.85);
+        background-color: var(--color-background);
 	}
 
 	.related h2 {
