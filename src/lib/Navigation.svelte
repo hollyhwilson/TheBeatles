@@ -86,19 +86,6 @@
         transition: color var(--transition-fast);
     }
 
-    .nav a::after {
-        /*content: '';
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 2px;
-        width: 100%;
-        background: var(--color-background);
-        transform: scaleX(0);
-        transform-origin: center;
-        transition: transform var(--transition-fast);*/
-    }
-
     .nav a:hover::after,
     .nav a:focus::after {
         transform: scaleX(1);

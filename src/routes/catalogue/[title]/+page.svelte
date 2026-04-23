@@ -54,8 +54,6 @@
 			{/each}
 		</section>
 
-		<!--<p class="article">{item.article}</p>-->
-
 		{#if item.tags.length}
 			<ul class="tags">
 				{#each item.tags as tag}
@@ -102,7 +100,6 @@
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
-		/* background-image: url('/images/backgrounds/kanji-grid.png'); */
         background-size: 200px;
         background-repeat: repeat;
         background-color: var(--color-background);

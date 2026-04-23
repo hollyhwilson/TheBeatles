@@ -1,4 +1,4 @@
-<script>
+<!--<script>
     import { asset } from '$app/paths';
 
     export let title;
@@ -107,4 +107,4 @@
             padding: var(--space-md);
         }
     }
-</style>
+</style>-->

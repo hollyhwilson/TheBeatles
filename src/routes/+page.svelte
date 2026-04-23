@@ -30,16 +30,6 @@
 
 <!-- Page Container -->
 <div class="home-container">
-    <!-- Hero Section -->
-   <!-- <section class="hero">
-        <h1>Live Mindfully. Learn Purposefully.</h1>
-        <p class="subheading">
-            Inspired by the 7 Virtues of Bushidō and the 11 Principles of the Shinobi.
-        </p>
-        <button class="inspire-button" on:click={openQuoteModal}>
-            Find Inspiration
-        </button>
-    </section>-->
 
     <!-- Featured Catalogue Section -->
     <section class="featured">
@@ -86,50 +76,6 @@
         display: flex;
         flex-direction: column;
         gap: var(--space-xl);
-    }
-
-    /* Hero Section */
-    .hero {
-        text-align: center;
-        padding: var(--space-xl) var(--space-md);
-        /*border-radius: var(--radius-md); */
-        box-shadow: var(--shadow-sm);
-        background-image: url('/images/backgrounds/zen-hero.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-blend-mode: overlay;
-        background-color: rgba(255, 255, 255, 0.75);
-    }
-
-    .hero h1 {
-        font-size: var(--font-xxl);
-        font-family: var(--font-heading);
-        margin-bottom: var(--space-sm);
-    }
-
-    .subheading {
-        font-size: var(--font-lg);
-        font-family: var(--font-body);
-        color: var(--text-secondary);
-        margin-bottom: var(--space-md);
-    }
-
-    .inspire-button {
-        padding: var(--space-sm) var(--space-lg);
-        background-color: var(--color-accent);
-        color: var(--text-contrast);
-        font-size: var(--font-base);
-        font-weight: 600;
-        border: none;
-        border-radius: var(--radius-sm);
-        cursor: pointer;
-        transition: background-color var(--transition-fast);
-    }
-
-    .inspire-button:hover,
-    .inspire-button:focus {
-        background-color:var(--color-background);
     }
 
     /* Featured Section */
@@ -192,25 +138,4 @@
         background-color: var(--color-background);
     }
 
-    .about-teaser h2 {
-        font-family: var(--font-heading);
-        margin-bottom: var(--space-sm);
-    }
-
-    .about-teaser p {
-        font-size: var(--font-base);
-        color: var(--text-secondary);
-        max-width: 60ch;
-        margin: 0 auto var(--space-sm) auto;
-    }
-
-    .learn-more {
-        font-size: var(--font-sm);
-        color: var(--color-accent);
-        text-decoration: none;
-    }
-
-    .learn-more:hover {
-        text-decoration: underline;
-    }
 </style>

@@ -101,7 +101,6 @@
                         tags={item.tags}
                         animationDelay={index * 80}
                         altText={item.alt}
-                        article={item.article}
                     />
                 </button>
             {/each}
@@ -120,7 +119,6 @@
     }
 
     .catalogue-heading-wrapper {
-        /* background-image: url('/images/backgrounds/scroll-teaser.png'); */
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -128,7 +126,6 @@
         padding: var(--space-lg) 0;
         text-align: center;
         border-radius: var(--radius-md);
-       /* box-shadow: var(--shadow-sm); */
         margin-bottom: var(--space-lg);
     }
 

@@ -44,13 +44,6 @@
         font-family: var(--font-heading);
     }
 
-    .logo-area img {
-        width: 96px;
-        height: auto;
-        border-radius: var(--radius-sm);
-        box-shadow: var(--shadow-sm);
-    }
-
     .logo-area h1 {
         margin: 20px;
         margin-top: 0px;

@@ -14,22 +14,10 @@
         <p class="message">
             The path <code>{page.url.pathname}</code> could not be found.
         </p>
-        <p class="quote">
-            “Even in failure, there is clarity.”<br />
-            <span>– Inspired by *bushidō* (誠 – Sincerity)</span>
-        </p>
     {:else if error}
         <p class="message">{error.message}</p>
-        <p class="quote">
-            “When the unexpected arises, meet it with calm.”<br />
-            <span>– Inspired by *ninshiki* (忍識 – Awareness)</span>
-        </p>
     {:else}
         <p class="message">An unknown error occurred. Please try again.</p>
-        <p class="quote">
-            “The obstacle is the path.”<br />
-            <span>– Zen proverb</span>
-        </p>
     {/if}
 
     <a class="home-button" href="{resolve('/')}">← Return to home</a>
@@ -62,22 +50,6 @@
         font-size: var(--font-xl);
         font-family: var(--font-body);
         margin: var(--space-md) 0 var(--space-sm);
-    }
-
-    .quote {
-        font-family: var(--font-quote);
-        font-style: italic;
-        font-size: var(--font-lg);
-        color: var(--text-secondary);
-        margin: var(--space-sm) 0 var(--space-lg);
-    }
-
-    .quote span {
-        display: block;
-        font-size: var(--font-base);
-        font-style: normal;
-        margin-top: var(--space-xs);
-        color: var(--text-tertiary);
     }
 
     code {
