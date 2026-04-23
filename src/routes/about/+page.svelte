@@ -34,59 +34,61 @@
 
 
 <section class="intro section-hero">
-    <h1>About the Starter Kit</h1>
+    <h1>About Relevant</h1>
     <p>
-        This project was designed as a learning platform and design reference for aspiring front-end developers.
-        It introduces foundational concepts in web design, UI/UX principles, accessibility, and mindful development,
-        rooted in philosophies of balance, self-discipline, and continuous growth.
+        Relevant was developed in the hopes of making a news site that appeals to a
+        more diverse demographic. In a world full of fake news, boring news, stupid news, relevant
+        flips the pre-exisiting news site standards on their heads! In the first two years
+        since starting the site we have won a multitude of awards, infact our work
+        has been so influential that we were nominated for the nobel journalism prize for 2026!
+        <br>
+        <br>
+        Our team is ever expanding as we have stayed dedicated to our goal to spread our journalism
+        across every age! We want to bring back whimsy to journalism, get people excited to 
+        read the news and be informed. 
+        <br>
+        <br>
+        <br>
+        <i>"Damn..they're so much better than us"</i> -New York Times
+        <br>
+        <br>
+        <i>"I could never be her.."</i> -BBC news
+        <br>
+        <br>
+        <i>"We're jobless and it's your fault. You're too good."</i> -Buzzfeed(rip)
     </p>
 </section>
 
-<section class="principles section-shinobi">
+<!--<section class="principles section-shinobi">
     <h2>11 Principles of the Shinobi</h2>
-    <div class="principle-grid">
-        {#each principles as principle}
-            <PhilosophyCard {...principle} theme="shinobi" />
-        {/each}
-    </div>
-</section>
+ </section>
 
 <section class="virtues section-bushido">
     <h2>The 7 Virtues of Bushidō</h2>
-    <div class="virtue-grid">
-        {#each virtues as virtue}
-            <PhilosophyCard {...virtue} theme="bushido" />
-        {/each}
-    </div>
-</section>
+  
+</section> -->
 
-<section class="gallery section-gallery">
-    <h2>Philosophical Inspirations</h2>
+<section class="creators">
+    <h2>The Creators</h2>
     <div class="grid">
         <figure>
-            <img src={asset("/images/about/shrine.png")} alt="Mountain Shrine at Dawn" />
-            <figcaption>
-                A mountain shrine illuminated by dawn — symbolising spiritual focus and clarity of purpose.
-            </figcaption>
+         <figcaption>
+               <h3> Holly </h3>
+         </figcaption>
+            <img src={asset("/images/about/holly.png")} alt="Holly!" />
         </figure>
-
         <figure>
-            <!--<img src={asset("/images/about/samurai.png")} alt="Samurai in Silhouette against Setting Sun" /> -->
-            <figcaption>
-                A lone samurai silhouetted at sunset — reflecting discipline, solitude, and the inner path of virtue.
-            </figcaption>
+         <figcaption>
+               <h3> Prince </h3>
+         </figcaption>
+            <img src={asset("/images/about/prince.png")} alt="Prince!" />
         </figure>
-
-        <figure>
-            <!--<img src={asset("/images/about/bamboo.png")} alt="Tranquil Path through Bamboo Forest" />-->
-            <figcaption>
-                A winding path through bamboo — evoking balance, flexibility, and quiet persistence.
-            </figcaption>
-        </figure>
+        <p>I am the greatest journalist ever, from the moment I was born I knew I was destined to be the best at being a journalist.</p>
+        <p>I think perchance, maybe I might have read the news one time when I was five, so yeah I'm extremely qualified.</p>
     </div>
 </section>
 
-<section class="reflection section-quote" aria-labelledby="reflection-title">
+<!--<section class="reflection section-quote" aria-labelledby="reflection-title">
 	<div class="container">
 		<h2 id="reflection-title">Reflections</h2>
 		<blockquote>
@@ -96,7 +98,7 @@
 			<footer>— Confucius</footer>
 		</blockquote>
 	</div>
-</section>
+</section> -->
 
 
 <style>
@@ -155,7 +157,7 @@
     }
 
     /* Section: Gallery */
-    .section-gallery {
+    .creators {
        /* background-image: url("/images/backgrounds/rice-texture.png"); */
         background-size: 800px;
         background-repeat: repeat;
@@ -230,7 +232,7 @@
 
     .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        grid-template-columns: 1fr 1fr;
         gap: var(--space-lg);
         max-width: 1100px;
         margin: 0 auto;
