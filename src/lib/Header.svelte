@@ -7,15 +7,15 @@
 <header class="header">
     <div class="logo-area">
         <div class="social-area">
-            <div class="social-container">
+            <a href=https://www.facebook.com><img src={asset("/images/header/facebook_logo.png")} alt="Facebook logo" /></a>
+            <a href=https://www.x.com><img src={asset("/images/header/twitter_logo.png")} alt="Twitter logo" /></a>
+        </div>
 
-            </div>
-            <div class="profile-container">
-
-            </div>
+        <div class="corner-right">
+            <img src={asset("/images/header/star.png")} alt="doodled star" />
         </div>
        
-        <div class="title-search-container">
+        <div class="logo">
             <h1>RELEVANT</h1>
         </div>
     </div>
@@ -37,6 +37,38 @@
         z-index: 100;
     }
 
+    .social-area {
+        display: inline-flex;
+        flex-direction: row;
+        max-width: 200px;
+        padding: 20px;
+        padding-bottom: 0px;
+        gap: 10px;
+    }
+
+    .social-area img {
+        max-width: 60px;
+        height: auto;
+        width: auto;
+        animation: fadeInTitle 0.6s ease forwards;
+    }
+
+    .corner-right {
+        display: inline-block;
+        right: 0;
+        max-width: 100px;
+        padding: 20px;
+        padding-bottom: 0px;
+        position: absolute;
+    }
+
+    .corner-right img {
+        max-width: 60px;
+        height: auto;
+        width: auto;
+        animation: fadeInTitle 0.6s ease forwards;
+    }
+
     .logo-area {
         display: block;
         align-items: center;
@@ -47,6 +79,7 @@
     .logo-area h1 {
         margin: 20px;
         margin-top: 0px;
+        margin-bottom: 0px;
         text-align: center;
         font-size: var(--font-logo);
         font-weight: 700;

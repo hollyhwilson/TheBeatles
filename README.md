@@ -42,7 +42,7 @@ You can preview the production build with `npm run preview`.
 Holly Wilson:
     setup of SvelteKit,
     header layout/structure,
-    replacement + addition of new images,
+    replacement & addition of new images,
     recolour of layout,
     about page (whole)
 
@@ -51,4 +51,5 @@ Prince (Stepanka) Novotna:
     font replacement,
     article text addition & layout, article images alt text, tag/category changes
     navigation restructure,
-    code cleanup,
+    header social media links,
+    code cleanup
