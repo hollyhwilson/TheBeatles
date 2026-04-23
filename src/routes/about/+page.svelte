@@ -71,14 +71,14 @@
         </figure>
 
         <figure>
-            <img src={asset("/images/about/samurai.png")} alt="Samurai in Silhouette against Setting Sun" />
+            <!--<img src={asset("/images/about/samurai.png")} alt="Samurai in Silhouette against Setting Sun" /> -->
             <figcaption>
                 A lone samurai silhouetted at sunset — reflecting discipline, solitude, and the inner path of virtue.
             </figcaption>
         </figure>
 
         <figure>
-            <img src={asset("/images/about/bamboo.png")} alt="Tranquil Path through Bamboo Forest" />
+            <!--<img src={asset("/images/about/bamboo.png")} alt="Tranquil Path through Bamboo Forest" />-->
             <figcaption>
                 A winding path through bamboo — evoking balance, flexibility, and quiet persistence.
             </figcaption>
@@ -103,9 +103,9 @@
     section {
         margin-bottom: var(--space-xl);
         padding: var(--space-lg) var(--space-md);
-        background-color: var(--color-surface);
+        background-color: var(--color-background);
         border-radius: var(--radius-md);
-        box-shadow: var(--shadow-sm);
+        /*box-shadow: var(--shadow-sm);*/
         animation: fadeIn 0.6s ease-in;
     }
 
@@ -130,7 +130,7 @@
 
     /* Section: Hero */
     .section-hero {
-        background-image: url("/images/backgrounds/bamboo-enso-hero.png");
+      /*  background-image: url("/images/backgrounds/bamboo-enso-hero.png");*/
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -140,7 +140,7 @@
 
     /* Section: Shinobi Principles */
     .section-shinobi {
-        background-image: url("/images/backgrounds/kanji-grid.png");
+        /* background-image: url("/images/backgrounds/kanji-grid.png"); */
         background-size: 650px;
         background-repeat: repeat;
         opacity: 0.95;
@@ -148,7 +148,7 @@
 
     /* Section: Bushidō Virtues */
     .section-bushido {
-        background-image: url("/images/backgrounds/parchment-scroll.png");
+       /* background-image: url("/images/backgrounds/parchment-scroll.png"); */
         background-size: 650px;
         background-repeat: repeat;
         opacity: 0.95;
@@ -156,7 +156,7 @@
 
     /* Section: Gallery */
     .section-gallery {
-        background-image: url("/images/backgrounds/rice-texture.png");
+       /* background-image: url("/images/backgrounds/rice-texture.png"); */
         background-size: 800px;
         background-repeat: repeat;
         background-position: bottom center;
@@ -165,7 +165,7 @@
 
     /* Section: Quote or Reflection */
     .section-quote {
-		background-image: url("/images/backgrounds/zen-garden-ripples.png");
+		/* background-image: url("/images/backgrounds/zen-garden-ripples.png"); */
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -196,14 +196,14 @@
 		font-family: var(--font-quote);
 		font-style: italic;
 		font-size: var(--font-lg);
-		color: var(--text-secondary);
+		color: var(--color-background);
 		margin: 0;
 	}
 
 	blockquote footer {
 		margin-top: var(--space-sm);
 		font-size: var(--font-sm);
-		color: var(--text-tertiary);
+		color: var(--color-background);
 	}
 
     p {
@@ -255,7 +255,7 @@
         font-size: var(--font-sm);
         color: var(--text-secondary);
         text-align: center;
-        background: var(--color-surface);
+        background: var(--color-background);
         font-style: italic;
     }
 
