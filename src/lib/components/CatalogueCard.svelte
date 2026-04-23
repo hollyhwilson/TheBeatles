@@ -34,14 +34,19 @@
             {/if}
         </p>
 
+        {#if isLong}
+            <p class="article">
+                {article}
+            </p>
+        {/if}
         
-        <p class="article">
+        <!--<p class="article">
             {#if expanded || !isLong2}
                 {article}
             {:else}
                 {article.substring(0, 60)}…
             {/if}
-        </p>
+        </p>-->
 
         {#if isLong}
             <button class="toggle" on:click={() => expanded = !expanded}>

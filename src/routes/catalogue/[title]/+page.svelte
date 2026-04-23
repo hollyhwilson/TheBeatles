@@ -47,7 +47,14 @@
 		<h1>{item.title}</h1>
 		<p class="category">{item.category}</p>
 		<p class="description">{item.description}</p>
-		<p class="artice">{item.article}</p>
+
+		<section class="article">
+			{#each item.article as segment}
+				<p class="segment">{segment}</p>
+			{/each}
+		</section>
+
+		<!--<p class="article">{item.article}</p>-->
 
 		{#if item.tags.length}
 			<ul class="tags">
@@ -136,6 +143,17 @@
 	.description {
 		margin: 0; /* Remove extra margins */
 		line-height: 1.65;
+	}
+
+	.article {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto;
+		gap: 1em;
+	}
+
+	.segment {
+		list-style: none;
 	}
 
 	.tags {
