@@ -36,3 +36,19 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+
+## Work Split
+Holly Wilson:
+    setup of SvelteKit,
+    header layout/structure,
+    replacement + addition of new images,
+    recolour of layout,
+    about page (whole)
+
+Prince (Stepanka) Novotna:
+    colour replacement,
+    font replacement,
+    article text addition & layout, article images alt text, tag/category changes
+    navigation restructure,
+    code cleanup,
